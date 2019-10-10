@@ -1,6 +1,8 @@
-#casualy explained
-###abyss explorer
-##philosophy
+### abyss explorer
+
+# casualy explained
+
+## philosophy
 
 if a beginner is having a bad time installing packages, there is not a bug in ce.
 if dependencies, requirements, unexpected errors start showing up to a user, there is not a bug in the user, there is a bug in ce. 
@@ -26,6 +28,4 @@ if a noob can't install the packages with the resources already in the repositor
 
 content, especiallly documentation should be simple, yet consider all of the possible hurdles and tricky dependencies conflicting with your system. abyssexplorer is an attempt to get you through the hurdle without ever having to do a google search because it's assumed you know what things mean and how they work.  
 
-#casually explained
-
-is an attempt for a step toward that.
+# casually explained is an attempt for a step toward real documents, the best documents around, it's gonna be great. Again!
