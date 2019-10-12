@@ -1,0 +1,37 @@
+Anyone else dislike Google?
+Another annoying feature found... 
+
+According to Google Chrome Privacy Whitepaper, Google Software Update send information such as the version of your Google Chrome (or other Google Apps), its release channel, your computer’s hardware information. It also send Google information such as usage frequency and number of active profiles, etc.
+
+To be fair, all the information described seems to be harmless, but what I don’t understand is why Google make it behaves like a malware? What will you think if I’m telling you that there is a piece of software that:
+
+it install in your computer without explicit asking for your permission, nor giving the options to decline it;
+it frequently sending data back to Google without your knowledge;
+it can’t be configured via a setting menu;
+there is no uninstallation tool for you;
+and it will re-install by itself if you delete it.
+
+This leads me to Google’s github under a project code name Omaha. According to the Omaha github page, Omaha is the open-source version of Google Update. In another word, Google not only using a special version of Omaha itself, it also hoping others will adopt the technology.... 
+
+https://github.com/google/omaha
+
+Anyway, I found entering this in terminal works to shut it off:
+
+defaults read com.google.Keystone.Agent.plist
+
+defaults write com.google.Keystone.Agent checkInterval 604800
+
+sudo touch ~/Library/Google/GoogleSoftwareUpdate
+
+sudo chmod 444 ~/Library/Google/GoogleSoftwareUpdate
+
+sudo rm ~/Library/LaunchAgents/com.google.keystone.agent.plist
+
+sudo rm  -R ~/Library/Caches/com.google.Keystone*
+
+sudo rm ~/Library/Preferences/com.google.Keystone.Agent.plist
+
+Now if you launch Google Chrome and type in chrome://help as the URL, Chrome will complain with a message update failed. That’s okay, but I’d also suggest checking this on a regular basis to make sure that you are up to date.
+
+The General Data Protection Regulation (GDPR) that was adopted by all EU members on 27 April 2016 has become enforceable by 25 May 2018, Google should take note and be cautious about its software behaviour, It will be naive to expect Google to honour its founding mottos of “Don’t be evil”
+
