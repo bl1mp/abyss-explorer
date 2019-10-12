@@ -1,11 +1,10 @@
-### abyss explorer
-
 # casualy explained
+### abyss explorer
 
 ## philosophy
 
-if a beginner is having a bad time installing packages, there is not a bug in ce.
-if dependencies, requirements, unexpected errors start showing up to a user, there is not a bug in the user, there is a bug in ce. 
+if a beginner is having a bad time installing packages, there is a bug in ae.
+if dependencies conflict, or unmentioned errors start showing up to a user, there is not a bug in the user, there is a bug in ce
 
 ## explain it!
 ### casually!
