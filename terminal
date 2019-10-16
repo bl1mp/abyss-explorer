@@ -1,0 +1,62 @@
+# bl1mp-bash: cd: var: No such file or directory
+## bl1mp-MacBook-Quantum:~ admin$ cd /
+### bl1mp-MacBook-Quantum:/ admin$ cd var/
+agentx/   db/       jabberd/  mail/     networkd/ rwho/     vm/
+at/       empty/    lib/      msgs/     root/     select/   yp/
+audit/    folders/  log/      named/    rpc/      spool/    
+backups/  install/  ma/       netboot/  run/      tmp/      
+
+# / admin$ cd var/run/
+.autoBackup
+.sim_diagnosticd_socket
+.systemStarterRunning
+auditd.pid
+automount.initialized
+com.apple.AssetCache/
+com.apple.WindowServer.didRunThisBoot
+com.apple.logind.didRunThisBoot
+com.apple.loginwindow.didRunThisBoot
+com.apple.mdmclient.daemon.didRunThisBoot
+com.apple.softwareupdate.availableupdatesupdated
+com.apple.wifivelocity/
+cupsd
+diskarbitrationd.pid
+displaypolicyd/
+fudinit
+hdiejectd.pid
+mDNSResponder
+mds/
+mds.pid
+portmap.socket
+pppconfd
+resolv.conf
+s-MacBook-Pro:/ admin$ cd var/run/
+s-MacBook-Pro:run admin$ ls
+auditd.pid
+automount.initialized
+com.apple.AssetCache
+com.apple.WindowServer.didRunThisBoot
+com.apple.logind.didRunThisBoot
+com.apple.loginwindow.didRunThisBoot
+com.apple.mdmclient.daemon.didRunThisBoot
+com.apple.softwareupdate.availableupdatesupdated
+com.apple.wifivelocity
+cupsd
+diskarbitrationd.pid
+displaypolicyd
+fudinit
+hdiejectd.pid
+mDNSResponder
+mds
+mds.pid
+portmap.socket
+pppconfd
+resolv.conf
+syslog
+syslog.pid
+systemkeychaincheck.done
+systemkeychaincheck.socket
+usbmuxd
+utmpx
+vpncontrol.sock
+wifi
